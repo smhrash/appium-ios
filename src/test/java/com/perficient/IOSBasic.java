@@ -1,6 +1,6 @@
 package com.perficient;
 
-import io.appium.java_client.AppiumBy;
+import com.perficient.utils.IOSBaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

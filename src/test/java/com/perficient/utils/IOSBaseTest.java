@@ -1,5 +1,6 @@
-package com.perficient;
+package com.perficient.utils;
 
+import com.perficient.homepageelements.HomePage;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -51,7 +52,6 @@ public class IOSBaseTest {
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
-
         }
     }
 

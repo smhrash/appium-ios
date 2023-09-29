@@ -1,17 +1,171 @@
-2023-09-25 19:54:54:121 [Appium] Welcome to Appium v2.1.3
-2023-09-25 19:54:54:122 [Appium] Non-default server args:
-2023-09-25 19:54:54:123 [Appium] { address: '127.0.0.1', loglevel: 'info' }
-2023-09-25 19:54:54:123 [Appium] Attempting to load driver uiautomator2...
-2023-09-25 19:54:54:212 [Appium] Attempting to load driver xcuitest...
-2023-09-25 19:54:54:334 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
-2023-09-25 19:54:54:334 [Appium] Available drivers:
-2023-09-25 19:54:54:334 [Appium]   - uiautomator2@2.29.7 (automationName 'UiAutomator2')
-2023-09-25 19:54:54:334 [Appium]   - xcuitest@5.2.1 (automationName 'XCUITest')
-2023-09-25 19:54:54:334 [Appium] Available plugins:
-2023-09-25 19:54:54:334 [Appium]   - execute-driver@3.0.17
-2023-09-25 19:54:54:334 [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
-2023-09-25 19:55:04:194 [Appium] Received SIGTERM - shutting down
-2023-09-25 19:55:04:197 uncaughtException: write EPIPE
+2023-09-29 16:04:54:989 [Appium] Welcome to Appium v2.1.3
+2023-09-29 16:04:54:990 [Appium] Non-default server args:
+2023-09-29 16:04:54:991 [Appium] { address: '127.0.0.1', loglevel: 'info' }
+2023-09-29 16:04:54:991 [Appium] Attempting to load driver uiautomator2...
+2023-09-29 16:04:55:075 [Appium] Attempting to load driver xcuitest...
+2023-09-29 16:04:55:198 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2023-09-29 16:04:55:198 [Appium] Available drivers:
+2023-09-29 16:04:55:198 [Appium]   - uiautomator2@2.29.7 (automationName 'UiAutomator2')
+2023-09-29 16:04:55:198 [Appium]   - xcuitest@5.2.1 (automationName 'XCUITest')
+2023-09-29 16:04:55:199 [Appium] Available plugins:
+2023-09-29 16:04:55:199 [Appium]   - execute-driver@3.0.17
+2023-09-29 16:04:55:199 [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+2023-09-29 16:04:55:483 [HTTP] --> GET /status
+2023-09-29 16:04:55:483 [HTTP] {}
+2023-09-29 16:04:55:486 [HTTP] <-- GET /status 200 2 ms - 110
+2023-09-29 16:04:55:486 [HTTP] 
+2023-09-29 16:04:55:843 [HTTP] --> POST /session
+2023-09-29 16:04:55:843 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/smhrash/Library/Developer/Xcode/DerivedData/UIKitCatalog-bqykmcgbjspneoftqexlwifdpgfq/Build/Products/Debug-iphonesimulator/UIKitCatalog.app","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 15 Pro Max","appium:platformVersion":"17.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}}
+2023-09-29 16:04:55:845 [Appium] Attempting to find matching driver for automationName 'XCuiTest' and platformName 'IOS'
+2023-09-29 16:04:55:845 [Appium] The 'xcuitest' driver was installed and matched caps.
+2023-09-29 16:04:55:845 [Appium] Will require it at /Users/smhrash/node_modules/appium-xcuitest-driver
+2023-09-29 16:04:55:845 [AppiumDriver@da36] Appium v2.1.3 creating new XCUITestDriver (v5.2.1) session
+2023-09-29 16:04:55:845 [AppiumDriver@da36] Checking BaseDriver versions for Appium and XCUITestDriver
+2023-09-29 16:04:55:845 [AppiumDriver@da36] Appium's BaseDriver version is 9.3.20
+2023-09-29 16:04:55:845 [AppiumDriver@da36] XCUITestDriver's BaseDriver version is 9.3.20
+2023-09-29 16:04:55:850 [XCUITestDriver@1f92 (092baeed)] Session created with session id: 092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:04:55:856 [XCUITestDriver@1f92 (092baeed)] No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+2023-09-29 16:04:56:346 [XCUITestDriver@1f92 (092baeed)] iOS SDK Version set to '17.0'
+2023-09-29 16:04:56:920 [iOSSim] Constructing iOS simulator for Xcode version 15.0 with udid '1B242349-E836-4818-BA74-AFD360E649C6'
+2023-09-29 16:04:56:920 [XCUITestDriver@1f92 (092baeed)] Determining device to run tests on: udid: '1B242349-E836-4818-BA74-AFD360E649C6', real device: false
+2023-09-29 16:04:56:922 [BaseDriver] Using local app '/Users/smhrash/Library/Developer/Xcode/DerivedData/UIKitCatalog-bqykmcgbjspneoftqexlwifdpgfq/Build/Products/Debug-iphonesimulator/UIKitCatalog.app'
+2023-09-29 16:04:57:077 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2023-09-29 16:04:57:077 [XCUITestDriver@1f92 (092baeed)] Using WDA path: '/Users/smhrash/node_modules/appium-webdriveragent'
+2023-09-29 16:04:57:077 [XCUITestDriver@1f92 (092baeed)] Using WDA agent: '/Users/smhrash/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2023-09-29 16:04:57:487 [XCUITestDriver@1f92 (092baeed)] Setting up simulator
+2023-09-29 16:04:57:886 [iOSSim] Both Simulator with UDID '1B242349-E836-4818-BA74-AFD360E649C6' and the UI client are currently running
+2023-09-29 16:04:57:984 [XCUITestDriver@1f92 (092baeed)] App 'com.example.apple-samplecode.UICatalog' is already installed
+2023-09-29 16:04:58:693 [DevCon Factory] Requesting connection for device 1B242349-E836-4818-BA74-AFD360E649C6 on local port 8100
+2023-09-29 16:04:58:693 [DevCon Factory] Successfully requested the connection for 1B242349-E836-4818-BA74-AFD360E649C6:8100
+2023-09-29 16:04:58:698 [WD Proxy] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:04:58:698 [XCUITestDriver@1f92 (092baeed)] Launching WebDriverAgent on the device
+2023-09-29 16:04:58:699 [XCUITestDriver@1f92 (092baeed)] There is no need to perform the project cleanup. A fresh install has been detected
+2023-09-29 16:04:59:218 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:00:220 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:01:223 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:02:226 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:03:228 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:04:230 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:05:233 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:06:235 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:07:241 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:08:246 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:09:249 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:10:250 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:11:250 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:12:251 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:13:253 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:14:253 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:15:255 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:16:257 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:17:259 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:18:261 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:19:262 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:20:265 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:21:267 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:22:267 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:23:271 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:24:272 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:25:277 [XCUITestDriver@1f92 (092baeed)] connect ECONNREFUSED 127.0.0.1:8100
+2023-09-29 16:05:27:790 [XCUITestDriver@1f92 (092baeed)] Determined the downstream protocol as 'W3C'
+2023-09-29 16:05:27:791 [AppiumDriver@da36] New XCUITestDriver session created successfully, session 092baeed-d63a-49dc-bee5-85395a74ecdd added to master session list
+2023-09-29 16:05:27:795 [HTTP] <-- POST /session 200 31951 ms - 608
+2023-09-29 16:05:27:796 [HTTP] 
+2023-09-29 16:05:27:874 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/timeouts
+2023-09-29 16:05:27:875 [HTTP] {"implicit":10000}
+2023-09-29 16:05:27:876 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/timeouts 200 2 ms - 14
+2023-09-29 16:05:27:876 [HTTP] 
+2023-09-29 16:05:28:182 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context
+2023-09-29 16:05:28:182 [HTTP] {}
+2023-09-29 16:05:28:184 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context 200 2 ms - 22
+2023-09-29 16:05:28:184 [HTTP] 
+2023-09-29 16:05:28:194 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element
+2023-09-29 16:05:28:194 [HTTP] {"using":"accessibility id","value":"Alert Views"}
+2023-09-29 16:05:28:324 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element 200 130 ms - 137
+2023-09-29 16:05:28:324 [HTTP] 
+2023-09-29 16:05:28:328 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/2A000000-0000-0000-490D-000000000000/click
+2023-09-29 16:05:28:328 [HTTP] {"id":"2A000000-0000-0000-490D-000000000000"}
+2023-09-29 16:05:28:328 [XCUITestDriver@1f92 (092baeed)] Driver proxy active, passing request on via HTTP proxy
+2023-09-29 16:05:29:193 [XCUITestDriver@1f92 (092baeed)] Replacing sessionId 17F1CA7B-F107-4136-B72F-C3CF8BA6C947 with 092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:05:29:196 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/2A000000-0000-0000-490D-000000000000/click 200 867 ms - 65
+2023-09-29 16:05:29:196 [HTTP] 
+2023-09-29 16:05:29:205 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context
+2023-09-29 16:05:29:205 [HTTP] {}
+2023-09-29 16:05:29:210 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context 200 5 ms - 22
+2023-09-29 16:05:29:210 [HTTP] 
+2023-09-29 16:05:29:217 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element
+2023-09-29 16:05:29:217 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeStaticText[`label='Text Entry'`]"}
+2023-09-29 16:05:29:311 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element 200 94 ms - 137
+2023-09-29 16:05:29:311 [HTTP] 
+2023-09-29 16:05:29:317 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/BC000000-0000-0000-490D-000000000000/click
+2023-09-29 16:05:29:317 [HTTP] {"id":"BC000000-0000-0000-490D-000000000000"}
+2023-09-29 16:05:29:318 [XCUITestDriver@1f92 (092baeed)] Driver proxy active, passing request on via HTTP proxy
+2023-09-29 16:05:30:302 [XCUITestDriver@1f92 (092baeed)] Replacing sessionId 17F1CA7B-F107-4136-B72F-C3CF8BA6C947 with 092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:05:30:303 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/BC000000-0000-0000-490D-000000000000/click 200 986 ms - 65
+2023-09-29 16:05:30:303 [HTTP] 
+2023-09-29 16:05:30:311 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context
+2023-09-29 16:05:30:311 [HTTP] {}
+2023-09-29 16:05:30:314 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context 200 2 ms - 22
+2023-09-29 16:05:30:314 [HTTP] 
+2023-09-29 16:05:30:322 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element
+2023-09-29 16:05:30:322 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeChain"}
+2023-09-29 16:05:30:693 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element 200 371 ms - 137
+2023-09-29 16:05:30:693 [HTTP] 
+2023-09-29 16:05:30:696 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/06000000-0000-0000-490D-000000000000/value
+2023-09-29 16:05:30:696 [HTTP] {"id":"06000000-0000-0000-490D-000000000000","text":"Perficient","value":["P","e","r","f","i","c","i","e","n","t"]}
+2023-09-29 16:05:33:509 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/06000000-0000-0000-490D-000000000000/value 200 2812 ms - 14
+2023-09-29 16:05:33:509 [HTTP] 
+2023-09-29 16:05:33:517 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context
+2023-09-29 16:05:33:517 [HTTP] {}
+2023-09-29 16:05:33:520 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context 200 3 ms - 22
+2023-09-29 16:05:33:520 [HTTP] 
+2023-09-29 16:05:33:529 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element
+2023-09-29 16:05:33:529 [HTTP] {"using":"accessibility id","value":"OK"}
+2023-09-29 16:05:33:672 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element 200 143 ms - 137
+2023-09-29 16:05:33:672 [HTTP] 
+2023-09-29 16:05:33:682 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/2C010000-0000-0000-490D-000000000000/click
+2023-09-29 16:05:33:682 [HTTP] {"id":"2C010000-0000-0000-490D-000000000000"}
+2023-09-29 16:05:33:683 [XCUITestDriver@1f92 (092baeed)] Driver proxy active, passing request on via HTTP proxy
+2023-09-29 16:05:34:535 [XCUITestDriver@1f92 (092baeed)] Replacing sessionId 17F1CA7B-F107-4136-B72F-C3CF8BA6C947 with 092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:05:34:537 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/2C010000-0000-0000-490D-000000000000/click 200 854 ms - 65
+2023-09-29 16:05:34:537 [HTTP] 
+2023-09-29 16:05:34:542 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context
+2023-09-29 16:05:34:543 [HTTP] {}
+2023-09-29 16:05:34:545 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context 200 2 ms - 22
+2023-09-29 16:05:34:545 [HTTP] 
+2023-09-29 16:05:34:552 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element
+2023-09-29 16:05:34:553 [HTTP] {"using":"-ios predicate string","value":"type == 'XCUIElementTypeStaticText' AND value == 'Confirm / Cancel'"}
+2023-09-29 16:05:34:635 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element 200 83 ms - 137
+2023-09-29 16:05:34:636 [HTTP] 
+2023-09-29 16:05:34:642 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/C6000000-0000-0000-490D-000000000000/click
+2023-09-29 16:05:34:642 [HTTP] {"id":"C6000000-0000-0000-490D-000000000000"}
+2023-09-29 16:05:34:643 [XCUITestDriver@1f92 (092baeed)] Driver proxy active, passing request on via HTTP proxy
+2023-09-29 16:05:35:302 [XCUITestDriver@1f92 (092baeed)] Replacing sessionId 17F1CA7B-F107-4136-B72F-C3CF8BA6C947 with 092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:05:35:303 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/C6000000-0000-0000-490D-000000000000/click 200 660 ms - 65
+2023-09-29 16:05:35:303 [HTTP] 
+2023-09-29 16:05:35:310 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context
+2023-09-29 16:05:35:310 [HTTP] {}
+2023-09-29 16:05:35:312 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/context 200 2 ms - 22
+2023-09-29 16:05:35:312 [HTTP] 
+2023-09-29 16:05:35:320 [HTTP] --> POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element
+2023-09-29 16:05:35:320 [HTTP] {"using":"-ios predicate string","value":"value BEGINSWITH[c] 'A message'"}
+2023-09-29 16:05:35:502 [HTTP] <-- POST /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element 200 183 ms - 137
+2023-09-29 16:05:35:502 [HTTP] 
+2023-09-29 16:05:35:504 [HTTP] --> GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/5F010000-0000-0000-490D-000000000000/text
+2023-09-29 16:05:35:504 [HTTP] {}
+2023-09-29 16:05:35:504 [XCUITestDriver@1f92 (092baeed)] Driver proxy active, passing request on via HTTP proxy
+2023-09-29 16:05:35:544 [XCUITestDriver@1f92 (092baeed)] Replacing sessionId 17F1CA7B-F107-4136-B72F-C3CF8BA6C947 with 092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:05:35:544 [HTTP] <-- GET /session/092baeed-d63a-49dc-bee5-85395a74ecdd/element/5F010000-0000-0000-490D-000000000000/text 200 41 ms - 110
+2023-09-29 16:05:35:544 [HTTP] 
+2023-09-29 16:05:35:550 [HTTP] --> DELETE /session/092baeed-d63a-49dc-bee5-85395a74ecdd
+2023-09-29 16:05:35:550 [HTTP] {}
+2023-09-29 16:05:35:551 [AppiumDriver@da36] Removing session 092baeed-d63a-49dc-bee5-85395a74ecdd from our master session list
+2023-09-29 16:05:36:596 [DevCon Factory] Releasing connections for 1B242349-E836-4818-BA74-AFD360E649C6 device on any port number
+2023-09-29 16:05:36:596 [DevCon Factory] Found cached connections to release: ["1B242349-E836-4818-BA74-AFD360E649C6:8100"]
+2023-09-29 16:05:36:607 [HTTP] <-- DELETE /session/092baeed-d63a-49dc-bee5-85395a74ecdd 200 1056 ms - 14
+2023-09-29 16:05:36:607 [HTTP] 
+2023-09-29 16:05:36:613 [Appium] Received SIGTERM - shutting down
+2023-09-29 16:05:36:616 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:160:15)
     at writeGeneric (node:internal/stream_base_commons:151:3)
@@ -29,7 +183,7 @@ Error: write EPIPE
     at DerivedLogger.emit (node:events:526:35)
     at addChunk (/Users/smhrash/node_modules/readable-stream/lib/_stream_readable.js:279:12)
     at readableAddChunk (/Users/smhrash/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-2023-09-25 19:55:04:198 uncaughtException: write EPIPE
+2023-09-29 16:05:36:617 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:160:15)
     at writeGeneric (node:internal/stream_base_commons:151:3)
@@ -47,7 +201,7 @@ Error: write EPIPE
     at DerivedLogger.emit (node:events:526:35)
     at addChunk (/Users/smhrash/node_modules/readable-stream/lib/_stream_readable.js:279:12)
     at readableAddChunk (/Users/smhrash/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-2023-09-25 19:55:04:199 uncaughtException: write EPIPE
+2023-09-29 16:05:36:617 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:160:15)
     at writeGeneric (node:internal/stream_base_commons:151:3)
@@ -65,7 +219,7 @@ Error: write EPIPE
     at DerivedLogger.emit (node:events:526:35)
     at addChunk (/Users/smhrash/node_modules/readable-stream/lib/_stream_readable.js:279:12)
     at readableAddChunk (/Users/smhrash/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-2023-09-25 19:55:04:200 uncaughtException: write EPIPE
+2023-09-29 16:05:36:618 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:160:15)
     at writeGeneric (node:internal/stream_base_commons:151:3)

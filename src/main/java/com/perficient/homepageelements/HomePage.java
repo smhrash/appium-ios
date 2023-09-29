@@ -1,12 +1,13 @@
-package com.perficient;
+package com.perficient.homepageelements;
 
+import com.perficient.iosactions.IOSAction;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage extends IOSAction{
+public class HomePage extends IOSAction {
     public HomePage(IOSDriver driver) {
         super(driver);
         this.driver = driver;
